@@ -22,14 +22,17 @@
 <sub><b>Figure 2: </b> A nii image on T2 weighted scan from patient No.104. </sub> 
 
 <img alt="Example of tumor segmentation on T2" src="LGG-104_label_38.png" width='400'>  
-<sub><b>Figure 1: </b> A nii segmentation image on T2 weighted scan from one patient No.104. </sub> 
+<sub><b>Figure 3: </b> A nii segmentation image on T2 weighted scan from one patient No.104. </sub> 
+
 
 ### TODO:
-- Find PROSTATEx test set groundtruth.
-- Find PROSTATEx-2 label data.
+- Run program on dicom images.
 
 ### Code to run the program
-Within the directory: /ssd/username/DM_calcification/original
+The following code focuses on nii images not dicom images.
+
+<br>Within the directory: /ssd/username/DM_calcification/original</br>
+
 THEANO_FLAGS="device=cuda0" python3 -u train.py /ssd/username/train.txt 256 alex_version3 > record.txt
 
 # DICOM Geometry
