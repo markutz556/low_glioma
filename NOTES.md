@@ -29,11 +29,9 @@
 - Run program on dicom images.
 
 ### Code to run the program
-The following code focuses on nii images not dicom images.
-
-<br>Within the directory: /ssd/username/DM_calcification/original</br>
-
-THEANO_FLAGS="device=cuda0" python3 -u train.py /ssd/username/train.txt 256 alex_version3 > record.txt
+<p>The following code focuses on nii images not dicom images.<p>
+<p>Within the directory: /ssd/username/DM_calcification/original<p>
+<p>THEANO_FLAGS="device=cuda0" python3 -u train.py /ssd/username/train.txt 256 alex_version3 > record.txt<p>
 
 # DICOM Geometry
 
