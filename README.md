@@ -1,4 +1,2 @@
-# prostate
+# Low Grade Glioma
 
-
-scan.py
